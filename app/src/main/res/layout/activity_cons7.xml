@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cons7">
+
+    <TextView
+        android:id="@+id/text1_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:gravity="center"
+        android:text="蛇夫座"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        蛇夫座是赤道带星座之一，从地球看位于武仙座以南，天蝎座和人马座以北，银河的西侧。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/text3_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        在古代星图中，把蛇夫座画成一个手持巨蛇的人，代表古代神医亚斯克雷比奥斯。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+
+</LinearLayout>

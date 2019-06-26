@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cons9">
+
+    <TextView
+        android:id="@+id/text1_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:gravity="center"
+        android:text="天蝎座"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        天蝎座，黄道十二宫之一，地球在每年10.24-11.22运行到天蝎座。它位于南半球，天秤座与东面的人马座之间，是一个接近银河中心的大星座。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/text3_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        天蝎座是黄道十二星座中最为显著的星座。夏天晚上八九点钟时，南方离地平线不很高的地方有一颗亮星，这就是天蝎座α星。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+
+</LinearLayout>

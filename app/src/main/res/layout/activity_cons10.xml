@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cons10">
+
+    <TextView
+        android:id="@+id/text1_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:gravity="center"
+        android:text="摩羯座"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        摩羯座，别名山羊座， 黄道十二星座之一， 摩羯座组成一个倒三角形结构，在黑暗的夜晚很容易辨别。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/text3_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        对于天文爱好者来说，摩羯座没有多少有趣的星体，这个区域的星系都很微弱不显著。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+
+</LinearLayout>

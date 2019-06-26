@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cons3">
+
+    <TextView
+        android:id="@+id/text1_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:gravity="center"
+        android:text="豺狼座"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        豺狼座，南天星座之一，位于半人马座与天蝎座之间。它包含中国古代星座：顿顽，从官，骑官，车骑，积卒，柱，骑阵将军。本星座基本上没有特别亮的星，最亮的是蓝巨星。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/text3_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        它还被和天箭座、半人马座一起被认为是被神话英雄海格力斯杀死的“厄律曼托斯山上的野猪 ”。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+
+</LinearLayout>

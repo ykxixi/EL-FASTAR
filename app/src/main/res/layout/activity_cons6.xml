@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cons6">
+
+    <TextView
+        android:id="@+id/text1_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:gravity="center"
+        android:text="鹿豹座"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        鹿豹座，全天八十八星座之一，位于北天，拱极星座。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/text3_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="7sp"
+        android:text="        它是一个很大的“瘦高挑”型的星座，但其中都是比4等星更暗的星，而且一般在南纬7度以南地区的居民看不到这个星座。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp" />
+
+
+</LinearLayout>

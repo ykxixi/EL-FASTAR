@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1">
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="项目介绍"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="55dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical|left"
+        android:lineSpacingExtra="7sp"
+        android:scrollbars="vertical"
+        android:text="        在2013年，这座口径达500米的球面射电望远镜FAST，在贵州喀斯特洼地建成。FAST建成后将成为世界上最大口径的射电望远镜，FAST与号称“地面最大的机器”的德国波恩100米望远镜相比，灵敏度提高约10倍；与排在阿波罗登月之前、被评为人类 20世纪十大工程之首的美国Arecibo 300米望远镜相比，其综合性能提高约10倍。作为世界最大的单口径望远镜，FAST将在未来20～30年保持世界一流设备的地位。
+"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp"
+        />
+
+</LinearLayout>

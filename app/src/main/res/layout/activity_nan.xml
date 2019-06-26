@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2">
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="南仁东"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="30dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:lineSpacingExtra="7sp"
+        android:singleLine="false"
+        android:text="        南仁东,中国天文学家、中国科学院国家天文台研究员，曾任FAST工程首席科学家兼总工程师，主要研究领域为射电天体物理和射电天文技术与方法，
+        负责国家重大科技基础设施500米口径球面射电望远镜（FAST）的科学技术工作。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

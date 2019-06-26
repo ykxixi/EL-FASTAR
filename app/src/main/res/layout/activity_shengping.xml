@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2">
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="人物生平"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="30dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:lineSpacingExtra="7sp"
+        android:singleLine="false"
+        android:text="        1963年就读于清华大学，于中国科学院研究生院获硕士、博士学位。后在日本国立天文台任客座教授。\n    1982年，他进入中国科学院北京天文台工作。\n        1994年起，一直负责FAST的选址、预研究、立项、可行性研究及初步设计。作为项目首席科学家、总工程师，负责编订FAST科学目标，全面指导FAST工程建设，并主持攻克了索疲劳、动光缆等一系列技术难题。\n    2016年9月25日，其主持的FAST落成启用。\n        2017年5月，获得全国创新争先奖 。\n        2017年7月，入选为2017年中国科学院院士增选初步候选人。
+\n        2017年9月15日晚，南仁东因病逝世，享年72岁。\n        2018年12月18日，党中央、国务院授予南仁东同志改革先锋称号，颁授改革先锋奖章，并获评“中国天眼”的主要发起者和奠基人。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1">
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="意义价值"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="55dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical|left"
+        android:lineSpacingExtra="7sp"
+        android:text="        具有中国独立自主知识产权的FAST，是世界上目前口径最大、最具威力的单天线射电望远镜，其设计综合体现了我国高技术创新能力。它将在基础研究众多领域，例如宇宙大尺度物理学、物质深层次结构和规律等方向提供发现和突破的机遇，也将在日地环境研究、国防建设和国家安全等方面发挥不可替代的作用。它的建设与运行将促进西部经济的繁荣和社会进步，符合国家区域发展总体战略。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

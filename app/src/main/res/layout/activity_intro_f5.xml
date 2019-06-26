@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1">
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="应用价值"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="55dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical|left"
+        android:lineSpacingExtra="7sp"
+        android:text="        能把中国空间测控能力由地球同步轨道延伸至太阳系外缘，将深空通讯数据下行速率提高100倍。\n
+      1.  脉冲星到达时间测量精度由120纳秒提高至30纳秒，成为国际上最精确的脉冲星计时阵，为自主导航这一前瞻性研究制作脉冲星钟。\n
+      2.  进行高分辨率微波巡视，以1HZ的分辩率诊断识别微弱的空间讯号，作为被动战略雷达为国家安全服务。\n
+      3.  基于FAST的强大功能，如果银河系(直径约为15万光年)内存在外星人，他们的信息就很可能被发现。国际科研项目“搜寻外星人计划”(SETI)的首席科学家丹·沃西默最近向中方提出，希望在FAST加装设备，可合作搜索外星人信号。"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

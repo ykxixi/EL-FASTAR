@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1">
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="工程概况"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="55dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical|left"
+        android:lineSpacingExtra="7sp"
+        android:text="
+*创新:\n
+1、利用独一无二的贵州天然喀斯特洼地台址\n
+2、应用主动反射面技术在地面改正球差\n
+3、轻型索拖动馈源支撑将万吨平台降至几十吨\n
+*科学目标:\n
+1、FAST有能力将中性氢观测延伸至宇宙边缘，重现宇宙早期图像。\n
+2、能用一年时间发现数千颗脉冲星，建立脉冲星计时阵，参与未来脉冲星自主导航和引力波探测。\n
+3、主导国际甚长基线干涉测量网，获得天体 超精细结构。\n
+4、进行高分辨率微波巡视，检测微弱空间信号。\n
+5、参与地外文明搜寻。\n
+6、参与子午链工程，提高非相干散射雷达双机系统性能。\n
+7、将深空通讯能力延伸至太阳系外缘行星，将卫星数据接收能力提高100倍。\n
+*应用目标:\n
+1、空间飞行器的测控与通讯\n
+2、脉冲星计时阵和自主导航\n
+3、非相干散射雷达接收系统\n
+4、高分辨率微波巡视\n
+*台址:\n
+FAST台址选定在贵州省黔南布依族苗族自治州平塘县克度镇金科村的大窝凼洼地,之所以选址“大窝凼”有三方面原因，一是地貌最接近FAST的造型，工程开挖量最小;二是这里的喀斯特地质可以保障雨水向地下渗透，不会在表面淤积而损坏和腐蚀望远镜;三是射电望远镜需要一处“静土”，“大窝凼”附近5千米半径之内没有一个乡镇，无线电环境理想。
+"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2">
+
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="人物评价"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="30dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:lineSpacingExtra="7sp"
+        android:singleLine="false"
+        android:text="人物评价:
+·踏平坎坷艰难寻‘它’，埋进深山志在高远。（人民日报官方微博）
+·23年时间里，他（南仁东）从壮年走到暮年，把一个朴素的想法变成了国之重器，成就了中国在世界上独一无二的项目。缅怀南老，致敬科学精神！（新华社《“中国天眼”之父南仁东病逝》）
+·“朴素宽厚，淡泊名利，待人诚恳，胸怀全局，鞠躬尽瘁”。（圣克鲁斯加州大学华裔天文学家林潮）
+"
+        android:textColor="#FFFFF0"
+        android:textSize="21sp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wxx.fast13">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/telelogo"
+        android:label="FASTAR"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TeleActivity" />
+        <activity android:name=".IntroFASTActivity" />
+        <activity android:name=".IntroStarActivity" />
+        <activity android:name=".intro_f1Activity" />
+        <activity android:name=".intro_f2Activity" />
+        <activity android:name=".intro_f3Activity" />
+        <activity android:name=".intro_f4Activity" />
+        <activity android:name=".intro_f5Activity" />
+        <activity android:name=".NanActivity" />
+        <activity android:name=".PinjiaActivity" />
+        <activity android:name=".ShengpingActivity" />
+        <activity android:name=".Cons1Activity" />
+        <activity android:name=".Cons2Activity" />
+        <activity android:name=".Cons3Activity" />
+        <activity android:name=".Cons4Activity" />
+        <activity android:name=".Cons5Activity" />
+        <activity android:name=".Cons6Activity" />
+        <activity android:name=".Cons7Activity" />
+        <activity android:name=".Cons8Activity" />
+        <activity android:name=".Cons9Activity" />
+        <activity android:name=".Cons10Activity" />
+        <activity android:name=".Cons11Activity" />
+        <activity android:name=".Cons12Activity" />
+        <activity android:name=".NanAllActivity"></activity>
+    </application>
+
+</manifest>
